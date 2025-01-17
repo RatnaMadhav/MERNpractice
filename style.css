@@ -1,0 +1,15 @@
+body{
+    background-color: brown;
+}
+head h1{
+    color: pink;
+
+}
+body h1{
+    color:gray;
+}
+h2{
+    color: blue;
+    direction: rtl;
+    display: flexbox;
+}
