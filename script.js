@@ -1,6 +1,10 @@
 console.log(`Hello!`);
 console.log("Hello World!!!");
-console.log(`This a random text`);
+document.addEventListener("DOMContentLoaded", function () {
+    const button = document.getElementById("clickButton");
+    const message = document.getElementById("message");
 
-console.log(`Helo`);
-console.log(`hdj`);
+    button.addEventListener("click", function () {
+        message.style.display = "block";
+    });
+});

@@ -1,6 +1,10 @@
 body{
     background-color: yellow;
     rotate: 45;
+    padding: auto;
+    padding-left: 56;
+    padding: auto;
+    padding-bottom: 76px;
 
 
 
@@ -16,4 +20,32 @@ h2{
     color: blue;
     direction: rtl;
     display: flexbox;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+    display: none;
 }
